@@ -1,0 +1,89 @@
+*{
+    font-family: sans-serif;
+    background-color:lightblue;
+}
+a{
+    text-decoration: none;
+    margin-right: 5%;
+}
+a:hover{
+  color:grey;
+}
+h1,a,h2{
+  color:brown;
+}
+img{
+  height: 350px;
+  float: right;
+  border-radius: 50%;
+  border: 3px solid brown;
+}
+progress{
+    width: 400px;
+    height: 30px;
+    background: white;
+}
+progress::-webkit-progress-value {
+    background:brown;
+}
+progress::-webkit-progress-bar {
+  background:grey;
+}
+
+header{
+  margin-top: 5%;
+  margin-left: 2%;
+  margin-right: 10%;
+}
+.quote{
+  width:60%;
+  line-height: 30px;
+}
+.skills{
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+.links{
+  margin-bottom: 3%;
+}
+main{
+  height: 75vh;
+  margin-top: 10%;
+}
+.education div,.projects div{
+  display: inline-block;
+  width: 30%;
+}
+.projects div{
+  float: left;
+  margin-right: 30px;
+  line-height: 25px;
+}
+section li{
+  margin-bottom: 20px;
+}
+section div{
+  margin-bottom: 50px;
+}
+@media (max-width:500px){
+  img{
+    margin-right: -50%;
+  }
+  .quote, h1, address{
+    width: 190%;
+  }
+  .links {
+    margin-left: 30%;
+    width: 150%;
+  }
+  a{
+    margin-right: 10%;
+  }
+  .education div,.projects div{
+    width:190%
+  }
+  section{
+    margin-top: 90%;
+    width: 190%;
+  }
+}
